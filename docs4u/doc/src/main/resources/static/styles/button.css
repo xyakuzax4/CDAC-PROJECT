@@ -1,0 +1,42 @@
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.raise {
+  --color: #d41717;
+  --hover: gold;
+}
+button {
+  color: whitesmoke;
+  transition: 0.25s;
+}
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+button {
+  
+  background: rgb(15, 15, 15);
+  border: none;
+  color: white;
+  font-size: 16px;
+  line-height: 1;
+  float: left;
+  padding: 15px 32px;
+  
+ 
+
+}
+
+h1 {
+  font-weight: 400;
+}
+
+code {
+  color: #0000ff;
+  font: inherit;
+}

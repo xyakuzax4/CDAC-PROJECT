@@ -1,0 +1,42 @@
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.raise {
+  --color: #ffa260;
+  --hover: #e5ff60;
+}
+button {
+  color: var(--color);
+  transition: 0.25s;
+}
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+ border-top-left-radius: 0px;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 0x;
+border-bottom-left-radius: 20px;
+
+}
+
+h1 {
+  font-weight: 400;
+}
+
+code {
+  color: #0000ff;
+  font: inherit;
+}
